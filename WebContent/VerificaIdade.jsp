@@ -7,8 +7,9 @@
 <title>Verificador de Idade</title>
 </head>
 <body>
+	<h1 align="center">Digite Seu nome e Idade</h1>
 	<form action="SvtVerificaIdade">
-		<table style="border:">
+		<table style="border:" align="center">
 			<tr>
 				<td>Nome:</td>
 				<td><input type="text" name="nome" /></td>

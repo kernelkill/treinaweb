@@ -53,24 +53,24 @@ public class ServletVerificadorIdade extends HttpServlet {
 		response.getWriter().write("					<table>");
 		response.getWriter().write("							<tr>");
 		response.getWriter().write("								<td>");
-		response.getWriter().write("									Seu nome é: ");
-		response.getWriter().write("								</td>");
-		response.getWriter().write("								<td>");
-		response.getWriter().write("									 " + nome);
-		response.getWriter().write("								</td>");
+		response.getWriter().write("									Seu nome é: " + nome);
+//		response.getWriter().write("								</td>");
+//		response.getWriter().write("								<td>");
+//		response.getWriter().write("	");
+//		response.getWriter().write("								</td>");
 		response.getWriter().write("							</tr>");
 
 		response.getWriter().write("							<tr>");
 		response.getWriter().write("								<td>");
-		response.getWriter().write("									Status da idade: ");
+		response.getWriter().write("									Vc tem  " + idade  + " anos de idade: ");
 		response.getWriter().write("								</td>");
 		if (idade >= 18) {
 			response.getWriter().write("								<td>");
-			response.getWriter().write("								Voce é maior de idade	 ");
+			response.getWriter().write("								Voce é maior de idade");
 			response.getWriter().write("								</td>");
 		} else {
 			response.getWriter().write("								<td>");
-			response.getWriter().write("							Você é menor de idade	 ");
+			response.getWriter().write("							Você é menor de idade");
 			response.getWriter().write("								</td>");
 		}
 		response.getWriter().write("							</tr>");
