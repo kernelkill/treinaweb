@@ -9,6 +9,12 @@
 <body>
 
 	<h1>Bem-vindo ao curso de javaWeb da Treinaweb.</h1>
+	
+	<%
+	String mensagem = "";
+	mensagem = "Estou Aprendendo Java";
+	out.println(mensagem);
+	%>
 
 </body>
 </html>
